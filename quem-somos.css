@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.navegaçao{
+      position: fixed;
+      top: 0;
+      background: #4caf50;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 1rem;
+  }
+
+  .menu{
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 3rem;
+      padding: 40px;
+  }
+
+
+  .menu li{
+      margin: 0 1rem;
+      padding: 0 50px;
+  }
+
+  .menu-link{
+      color: rgb(3, 3, 3);
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 500;
+      position: relative;
+      padding: 0.5rem;
+  }
+
+  .menu-link::after{
+      content: '';
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      background-color: #0c0c0c;
+      transition: width 0.5s ease;
+  }
+
+  .menu-link:hover::after{
+      width: 100%;
+  }
+
+.cabecalho{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cabecalho{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .flex{
+    gap: 200px;
+} */
+
+.foto-perfil {
+    height: 600px;
+    border-radius: 10%;
+    border-bottom: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(1px 1px 20px #00ff08);
+}
+
+section.topo-do-site{
+    padding: 40px 4%
+}
+
+.flex{
+    display: flex;
+    gap: 100px;
+    margin: 0 50px;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 70px;
+    line-height: 45px;
+}
+
+.topo-do-site h1 span{
+    color:#176419
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px
+}
+
+/* header {
+    background-color: #7cdfce;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    /* display: block;
+    margin: 0 auto;
+    
+}
+
+
+.foto-loja{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+} */
+
+/* .logo-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.foto-loja {
+  float: left; 
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px; 
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+} */ */
+
+
+/* .navegacao{
+    position: fixed;
+    top: 0;
+    background: #b3ecb5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aef1b4;
+    padding: 100px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 3rem;
+    padding: 60px;
+}
+
+
+.menu li{
+    margin: 0 1rem;
+    padding: 0 50px;
+}
+
+.menu-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.menu-link::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #000000;
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after{
+    width: 100%;
+}
+
+p {
+    margin: 20px 20px;
+    justify-content: center;
+    font-size: 15px
+}
+
+.foto-loja{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+.foto-loja{
+    display: flex-start;
+    justify-content: space-between;
+}*/
+
+.quem-somos{
+    background-color: #000000;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
+    margin-left: 0
+}
+
+span{
+    font-weight: bold;
+    color: #aef1b4;
+}
+
+.quem-somos2 {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 12px;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+    margin-top: 12px;
+    color: #333;
+} 

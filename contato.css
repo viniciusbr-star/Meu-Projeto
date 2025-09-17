@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(255, 250, 237);
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+button {
+    background-color: rgb(146, 237, 149);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 16px
+}
+
+button:hover {
+    background-color: rgb(159, 159, 159);
+}
