@@ -1,29 +1,258 @@
 body {
-    background-color: rgb(255, 250, 237);
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(223, 209, 175);
+  font-family: "Times New Roman", Times, serif;
 }
 
-.logo-header img {
-    /* margin-left: 20px; */
-    width: 180px;
-    height: 180px;
-    left: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin-top: 10px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding-top: 100px;
 }
 
-nav ul li a {
-  text-decoration: none; /* Remove o sublinhado */
+header {
+  background-color: #ffffff;
   color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+header:hover {
+  background-color: #f4f4f4;
+}
+
+header .logo img {
+  max-height: 50px;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #4caf50;
+  border-bottom: 2px solid #4caf50;
+}
+
+
+
+.cta-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+.secao-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.inicio-esquerda {
+  flex: 1;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.inicio-esquerda h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.inicio-esquerda p {
   font-size: 1.1em;
-  transition: color 0.3s;
+  line-height: 1.6;
+  color: #555;
+}
+
+.inicio-direita {
+  flex: 1;
+  text-align: center;
+}
+
+.inicio-direita h3 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.carrossel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.carrossel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.carrossel-simulado img:hover {
+  transform: scale(1.05);
+}
+
+.img1{
+  width: 150px;
+  height: auto;
+}
+
+.img2{
+  width: 150px;
+  height: auto;
+}
+
+.img3{
+  width: 150px;
+  height: auto;
+}
+
+.img4{
+  width: 150px;
+  height: auto;
+}
+
+.secao-produtos {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.secao-produtos h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.lista-de-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.produto-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.produto-item:hover {
+  transform: translateY(-10px);
+}
+
+.produto-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.produto-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.produto-item p {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.produto-item .preco {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.carrossel {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    max-width: 520px; 
+    margin: 0 auto; 
+}
+
+.carrossel img {
+    width: calc(50% - 5px);
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+h1 span {
+    color: #4caf50;
+}
+
+h2 span {
+    color: #4caf50;
+}
+
+.cta-button2 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0;
+  width: 170px;
+}
+
+.cta-button2:hover {
+    background-color: #45a049;
 }

@@ -10,36 +10,78 @@
 
 <body>
     <header>
-        <nav>
-            <div class="logo-header">
-                <a href=""><img src="logo.png" alt=""></a>
-            <ul class="menu">
-                <li><a href="#home" class="menu-link">Home</a></li>
-                <li><a href="#home" class="menu-link">Quem Somos</a></li>
-                <li><a href="#home" class="menu-link">Contato</a></li>
-            </ul>
+        <div class="logo">
+            <img src="logo.png" alt="Artigos Esportivos Campeão">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#quemsomos">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
+        <a href="#compra" class="cta-button">Entre em Contato</a>
     </header>
-    <section>
+
+
+    <section id="inicio" class="secao-principal">
         <div class="inicio-esquerda">
-            <h1>Bem-vindo à Artigos Esportivos Campeão!</h1>
-            <p>Prepare-se para elevar seu jogo e seu estilo! Na Artigos Esportivos Campeão, somos mais do que uma loja –
+            <h1>Bem-vindo à <span>Artigos Esportivos Campeão</span>!</h1>
+            <p>Prepare-se para elevar seu jogo e seu estilo! Na Artigos Esportivos Campeão, somos mais do que uma loja -
                 somos o seu parceiro em cada desafio, em cada vitória e em cada gota de suor. Aqui você encontra a mais
                 completa seleção de artigos esportivos e vestuário fitness, cuidadosamente escolhidos para atletas de
-                todos
-                os níveis e para todos que buscam uma vida ativa e saudável.
+                todos os níveis e para todos que buscam uma vida ativa e saudável.</p>
+        </div>
+
+        <div class="inicio-direita">
+            <h3>Destaques</h3>
+            <div class="carrossel">
+                <img src="fitness.png" alt="imagem 1" class="img1">
+                <img src="suplementos.png" alt="imagem 2" class="img2">
+                <img src="equipamentos.png" alt="imagem 3" class="img3">
+                <img src="calcado.png" alt="imagem 4" class="img4">
+            </div>
         </div>
     </section>
 
-    <section>
-        <div class="inicio-direita">
-            <a href=""><img src="fitness.png" alt="" class="img1"></a>
-            <a href=""><img src="suplementos.png" alt="" class="img2"></a>
-            <a href=""><img src="equipamentos.png" alt="" class="img3"></a>
-            <a href=""><img src="calcado.png" alt="" class="img4"></a>
+    <section id="produtos" class="secao-produtos">
+        <h2>Nossos <span>Produtos</span></h2>
+        <div class="lista-de-produtos">
+
+            <div class="produto-item">
+                <img src="camisa.png" alt="Camiseta de Corrida">
+                <h3>Camiseta de Corrida</h3>
+                <p>Feita com tecido respirável, ideal para treinos intensos.</p>
+                <span class="preco">R$ 79,90</span>
+            </div>
+
+            <div class="produto-item">
+                <img src="tenis-treino.png" alt="Tênis de Treino">
+                <h3>Tênis de Treino</h3>
+                <p>Amortecimento e estabilidade para diversos tipos de exercícios.</p>
+                <span class="preco">R$ 249,90</span>
+            </div>
+
+            <div class="produto-item">
+                <img src="garrafa.png" alt="Garrafa Térmica">
+                <h3>Garrafa Térmica</h3>
+                <p>Mantém a sua bebida gelada por horas. Perfeita para hidratação.</p>
+                <span class="preco">R$ 45,00</span>
+            </div>
+
+            <div class="produto-item">
+                <img src="faixas.png" alt="Kit de Faixas Elásticas">
+                <h3>Kit de Faixas Elásticas</h3>
+                <p>Ideal para exercícios de resistência e reabilitação.</p>
+                <span class="preco">R$ 55,50</span>
+            </div>
+
         </div>
     </section>
+
+    <div class="mais">
+        <a href="#quemsomos" class="cta-button2">Veja Mais</a>
+    </div>
 </body>
 
 </html>
